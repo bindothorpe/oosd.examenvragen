@@ -26,7 +26,7 @@ public class Kubussen {
 		
 		berekening += "=" + totaalNodig;
 		
-		System.out.printf("Om %d kubussen van opeenvolgende groote te maken, zijn %d blokjes nodig%n", getal, totaalNodig);
+		System.out.printf("Om %d kubussen van opeenvolgende groote te maken, %s %d %s nodig%n", getal, totaalNodig == 1 ? "is" : "zijn", totaalNodig, totaalNodig == 1 ? "blokje" : "blokjes");
 		System.out.println(berekening);
 		
 	}
