@@ -2,7 +2,7 @@ package me.bindo.oefeningen;
 
 import java.util.Scanner;
 
-public class Oefening1 {
+public class Kubussen {
 
 	public static void main(String[] args) {
 		
